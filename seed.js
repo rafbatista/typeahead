@@ -105,7 +105,7 @@ MongoClient.connect('mongodb://localhost/library', (err, db) => {
           make: 'McLaren'
         },
         {
-          make: 'Mercedes-Benz'
+          make: 'Mercedes Benz'
         },
         {
           make: 'Mini'
@@ -120,7 +120,7 @@ MongoClient.connect('mongodb://localhost/library', (err, db) => {
           make: 'Ram'
         },
         {
-          make: 'Rolls-Royce'
+          make: 'Rolls Royce'
         },
         {
           make: 'Scion'
