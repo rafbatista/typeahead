@@ -1,0 +1,55 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  font-size: 10px;
+}
+
+body {
+  background-image: url(images/backgroundImg.jpg);
+}
+
+h1 {
+  text-align: center;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  color: white;
+}
+
+.input-box {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search-box {
+  width: 41.9vw;
+  background: white;
+  text-align: left;
+  position: absolute;
+  top: 2.5rem;
+}
+
+.search-item {
+  font-size: 16px;
+  padding: 2px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.search-item:hover {
+  background: blue;
+  color: white;
+}
+
+#typeahead {
+  width: 41.5vw;
+  text-align: left;
+  height: 2vh;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
