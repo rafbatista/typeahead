@@ -10,6 +10,7 @@ MongoClient.connect('mongodb://localhost/library', (err, db) => {
     console.error(err)
     process.exit(1)
   }
+
   const typeahead = db.collection('typeahead')
 
   app.get('/makes', (req, res) => {
